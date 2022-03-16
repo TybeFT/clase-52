@@ -1,0 +1,93 @@
+h1{
+    color: #85C1E9;
+    padding-left: 50px;
+    margin: 25px;
+    font-family: Ebrima;
+}
+
+.aboutName h1 {
+    color: black;
+    padding-left: 850px;
+}
+
+.header {
+    background-color: rgb(1, 26, 80);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.juegos {
+    /* background-color: rgb(151, 103, 14); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.juegos2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 40px;
+}
+
+.redes{
+    display: flex;
+    justify-content: end;
+}
+
+body {
+    background-color: #34495E;
+}
+
+h2 {
+    color: #A9DFBF;
+    font-family: Ebrima;
+}
+
+p{
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.menu {
+    padding-right: 40px;
+    padding-top: 60px;
+}
+
+.menu a{
+    margin: 15px;
+}
+
+.game {
+    position: relative;
+}
+
+.game:hover img {
+    opacity: 0.30;
+}
+
+.game:hover p {
+    opacity: 1;
+}
+
+.game p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: white;
+}
+
+.intro {
+    margin-bottom: 100px;
+}
